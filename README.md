@@ -49,13 +49,17 @@ Palabras clave: Músculo esquelético; Contracción muscular; Fuerza (F(t)); Con
 
 ## Lista de archivos incluidos en el repositorio
 
-1\. Cuaderno computacional de MATLAB \[.mlx].
-2\. Modelo de Simulink \[.slx].
+1. Cuaderno computacional de MATLAB \[.mlx].
+
+2. Modelo de Simulink \[.slx].
+
 3. Archivo de Phyton \[.py].
+
 4. Imágenes de las graficas control vs caso \[.pdf].
+
 6. Evidencia del análisis matemático.
 
-7\. Modelo fisiológico en Biorender.
+7. Modelo fisiológico en Biorender.
 
 ## Referencias
 
