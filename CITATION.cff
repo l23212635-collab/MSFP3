@@ -1,0 +1,24 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: 'Practica 3: Sistema Musculoesquelético'
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Diego Perez
+    family-names: Garcia
+    email: L23212635@tijuana.tecnm.mx
+    affiliation: TecNM / ITT Tijuana
+repository-code: 'https://github.com/l23212635-collab/MSFP3'
+keywords:
+  - Músculo esquelético
+  - Contracción muscular
+  - Fuerza (F(t))
+  - Control neuromuscular
+  - Respuesta dinámica
+license: BSD-2-Clause
+version: '1.0'
+date-released: '2026-11-03'
