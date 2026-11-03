@@ -26,10 +26,15 @@ La asignatura de Modelado de Sistemas Fisiológicos forma parte del plan de estu
 ## Objetivos
 
 1\. Desarrollar el modelo matemático del sistema musculoesquelético.
-2\. Obtener la función de transferencia del sistema.
+
+2. Obtener la función de transferencia del sistema.
+
 3. Analizar la respuesta dinámica del sistema ante una señal de entrada.
+
 4. Simular el comportamiento del sistema en lazo abierto.
+
 5. Diseñar un controlador PID para mejorar la respuesta del sistema.
+
 6. Comparar el comportamiento entre el individuo sano (control) y el caso patológico.
 
 ## Descripción detallada del sistema
