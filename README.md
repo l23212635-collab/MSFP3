@@ -55,7 +55,7 @@ Palabras clave: Músculo esquelético; Contracción muscular; Fuerza (F(t)); Con
 4. Imágenes de las graficas control vs caso \[.pdf].
 6. Evidencia del análisis matemático.
 
-7\. Modelo fisiológico en Biorender o BioArt.
+7\. Modelo fisiológico en Biorender.
 
 ## Referencias
 
