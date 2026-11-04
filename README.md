@@ -20,6 +20,32 @@ Blvd. Alberto Limón Padilla s/n, Tijuana, C.P. 22454, B.C., México.
 
 ---
 
+<a id="contenido"></a>
+
+## Contenido
+
+1. [Introducción](#1-introducción)
+2. [Competencia y objetivos](#2-competencia-y-objetivos)
+3. [Relación con el temario de la asignatura](#3-relación-con-el-temario-de-la-asignatura)
+4. [Descripción del sistema fisiológico](#4-descripción-del-sistema-fisiológico)
+5. [Modelo matemático](#5-modelo-matemático)
+6. [Análisis de la respuesta temporal y estabilidad](#6-análisis-de-la-respuesta-temporal-y-estabilidad)
+7. [Señales de entrada y condiciones de simulación](#7-señales-de-entrada-y-condiciones-de-simulación)
+8. [Implementación en MATLAB](#8-implementación-en-matlab)
+9. [Modelado en Simulink](#9-modelado-en-simulink)
+10. [Diseño del controlador PID](#10-diseño-del-controlador-pid)
+11. [Implementación en Python](#11-implementación-en-python)
+12. [Resultados y comparación](#12-resultados-y-comparación)
+13. [Flujo de trabajo](#13-flujo-de-trabajo)
+14. [Actividades desarrolladas](#14-actividades-desarrolladas)
+15. [Estructura del repositorio](#15-estructura-del-repositorio)
+16. [Requisitos de ejecución](#16-requisitos-de-ejecución)
+17. [Reproducibilidad y entregables](#17-reproducibilidad-y-entregables)
+18. [Conclusiones](#18-conclusiones)
+19. [Referencias bibliográficas](#19-referencias-bibliográficas)
+
+---
+
 ## 1. Introducción
 
 El modelado de sistemas fisiológicos permite representar matemáticamente el comportamiento de los diferentes sistemas que conforman el cuerpo humano. Mediante modelos matemáticos y herramientas computacionales es posible estudiar la respuesta dinámica de un sistema biológico ante diferentes estímulos, así como analizar las variaciones que se presentan bajo distintas condiciones fisiológicas o patológicas.
@@ -29,6 +55,10 @@ En esta práctica se estudia el **sistema musculoesquelético**, específicament
 A partir del modelo obtenido se analiza el comportamiento dinámico del sistema, se obtiene su función de transferencia y se realizan simulaciones computacionales en MATLAB, Simulink y Python.
 
 Además, se compara la respuesta de un individuo en condiciones normales (control) con un caso patológico, con el propósito de identificar las diferencias en su comportamiento y estudiar la aplicación de un controlador PID para modificar la respuesta del sistema.
+
+[⬆️ Volver al contenido](#contenido)
+
+---
 
 ## 2. Competencia y objetivos
 
@@ -50,6 +80,10 @@ Modelar y analizar el comportamiento dinámico del sistema musculoesquelético m
 6. Comparar la respuesta de un individuo en condiciones normales (control) con un caso patológico.
 7. Interpretar las diferencias entre ambas respuestas y evaluar el efecto del controlador sobre el comportamiento del sistema.
 
+[⬆️ Volver al contenido](#contenido)
+
+---
+
 ## 3. Relación con el temario de la asignatura
 
 La práctica se relaciona con los temas de modelado matemático, análisis de sistemas dinámicos y teoría clásica de control.
@@ -67,6 +101,10 @@ Los conocimientos aplicados incluyen:
 - Comparación entre condiciones fisiológicas normales y patológicas.
 
 Estos conceptos permiten estudiar el comportamiento de un sistema fisiológico mediante herramientas matemáticas y computacionales.
+
+[⬆️ Volver al contenido](#contenido)
+
+---
 
 ## 4. Descripción del sistema fisiológico
 
@@ -98,6 +136,10 @@ Representa el comportamiento del sistema en condiciones normales. Se utiliza com
 Representa una condición en la que se modifica el comportamiento del sistema mediante cambios en sus parámetros. Principalmente, se considera una variación en la resistencia, lo que modifica la constante de tiempo y la velocidad de respuesta.
 
 La comparación permite observar cómo las modificaciones de los parámetros afectan el comportamiento dinámico del sistema.
+
+[⬆️ Volver al contenido](#contenido)
+
+---
 
 ## 5. Modelo matemático
 
@@ -164,6 +206,10 @@ Una modificación de la resistencia o de la capacitancia produce cambios en la c
 
 En esta práctica, la comparación entre el caso control y el caso patológico permite estudiar cómo los cambios en los parámetros modifican la velocidad de respuesta del modelo.
 
+[⬆️ Volver al contenido](#contenido)
+
+---
+
 ## 6. Análisis de la respuesta temporal y estabilidad
 
 El análisis temporal permite observar cómo responde el sistema ante una señal de entrada y cómo evoluciona su salida a través del tiempo.
@@ -194,6 +240,10 @@ La comparación de ambas respuestas permite identificar las diferencias en el co
 
 Se busca observar cómo los cambios en los parámetros afectan la evolución de la salida y cómo estas variaciones pueden representar condiciones fisiológicas diferentes.
 
+[⬆️ Volver al contenido](#contenido)
+
+---
+
 ## 7. Señales de entrada y condiciones de simulación
 
 Para estudiar el comportamiento del modelo se aplica una señal de entrada que representa la fuerza ejercida sobre el sistema musculoesquelético.
@@ -213,6 +263,10 @@ Las simulaciones se realizan utilizando herramientas computacionales, consideran
 
 Los valores numéricos específicos deben corresponder a los parámetros implementados en los archivos de MATLAB, Simulink y Python del repositorio.
 
+[⬆️ Volver al contenido](#contenido)
+
+---
+
 ## 8. Implementación en MATLAB
 
 MATLAB se utiliza como herramienta principal para realizar los cálculos matemáticos, analizar el comportamiento del sistema y generar las gráficas correspondientes.
@@ -228,6 +282,10 @@ Las actividades realizadas incluyen:
 5. Simulación de la respuesta temporal.
 6. Comparación entre el caso control y el patológico.
 7. Generación de gráficas para interpretar los resultados.
+
+[⬆️ Volver al contenido](#contenido)
+
+---
 
 ## 9. Modelado en Simulink
 
@@ -246,6 +304,10 @@ Posteriormente, se incorpora un controlador PID para modificar la respuesta del 
 El controlador permite ajustar el comportamiento dinámico mediante la acción proporcional, integral y derivativa.
 
 La finalidad es evaluar si la respuesta del sistema puede aproximarse a la respuesta de referencia del caso control.
+
+[⬆️ Volver al contenido](#contenido)
+
+---
 
 ## 10. Diseño del controlador PID
 
@@ -283,6 +345,10 @@ El controlador PID se incorpora para evaluar la posibilidad de compensar las dif
 
 Se analiza la respuesta obtenida después de implementar el controlador y se compara con el comportamiento original del sistema.
 
+[⬆️ Volver al contenido](#contenido)
+
+---
+
 ## 11. Implementación en Python
 
 Python se utiliza como herramienta complementaria para realizar simulaciones y representar gráficamente el comportamiento del sistema.
@@ -299,6 +365,10 @@ Las principales bibliotecas utilizadas son:
 | Control | Modelado y análisis de sistemas de control |
 
 La implementación permite comparar los resultados obtenidos mediante Python con los resultados de MATLAB y Simulink.
+
+[⬆️ Volver al contenido](#contenido)
+
+---
 
 ## 12. Resultados y comparación
 
@@ -330,25 +400,53 @@ En el repositorio se incluyen las gráficas generadas durante las simulaciones, 
 
 Estas representaciones permiten visualizar las diferencias en el comportamiento dinámico y evaluar los efectos de la estrategia de control implementada.
 
+[⬆️ Volver al contenido](#contenido)
+
+---
+
 ## 13. Flujo de trabajo
 
 El desarrollo de la práctica sigue una secuencia de actividades que permite pasar desde la descripción del sistema fisiológico hasta la simulación y análisis de resultados.
 
 ### 13.1 Diagrama general del procedimiento
 
-```mermaid
-flowchart TD
-    A[Descripción del sistema musculoesquelético] --> B[Analogía eléctrica RC]
-    B --> C[Desarrollo del modelo matemático]
-    C --> D[Obtención de la función de transferencia]
-    D --> E[Definición de parámetros y señal de entrada]
-    E --> F[Simulación en MATLAB]
-    F --> G[Implementación en Simulink]
-    G --> H[Análisis del caso control y patológico]
-    H --> I[Diseño del controlador PID]
-    I --> J[Simulación en Python]
-    J --> K[Comparación de resultados]
-    K --> L[Interpretación y conclusiones]
+El procedimiento desarrollado durante la práctica se representa mediante la siguiente secuencia de actividades:
+
+```text
+Descripción del sistema musculoesquelético
+                  |
+                  v
+         Analogía eléctrica RC
+                  |
+                  v
+       Desarrollo del modelo matemático
+                  |
+                  v
+    Obtención de la función de transferencia
+                  |
+                  v
+ Definición de parámetros y señal de entrada
+                  |
+                  v
+          Simulación en MATLAB
+                  |
+                  v
+       Implementación en Simulink
+                  |
+                  v
+ Análisis del caso control y patológico
+                  |
+                  v
+       Diseño del controlador PID
+                  |
+                  v
+          Simulación en Python
+                  |
+                  v
+       Comparación de resultados
+                  |
+                  v
+       Interpretación y conclusiones
 ```
 
 ### 13.2 Procedimiento
@@ -366,6 +464,10 @@ flowchart TD
 11. Evaluar los resultados obtenidos.
 12. Documentar las gráficas y conclusiones.
 
+[⬆️ Volver al contenido](#contenido)
+
+---
+
 ## 14. Actividades desarrolladas
 
 Durante el desarrollo de la práctica se consideran las siguientes actividades:
@@ -380,6 +482,10 @@ Durante el desarrollo de la práctica se consideran las siguientes actividades:
 - [x] Diseño y análisis del controlador PID.
 - [x] Generación de gráficas y evidencia de resultados.
 - [x] Elaboración de la documentación de la práctica.
+
+[⬆️ Volver al contenido](#contenido)
+
+---
 
 ## 15. Estructura del repositorio
 
@@ -427,6 +533,10 @@ MSFP3/
 
 *Nota: Los nombres de los archivos y carpetas deben coincidir con los nombres reales utilizados en el repositorio.*
 
+[⬆️ Volver al contenido](#contenido)
+
+---
+
 ## 16. Requisitos de ejecución
 
 Para ejecutar y revisar los archivos de la práctica se requieren las siguientes herramientas:
@@ -450,6 +560,10 @@ Las bibliotecas necesarias para la implementación incluyen:
 ```bash
 pip install numpy matplotlib scipy control
 ```
+
+[⬆️ Volver al contenido](#contenido)
+
+---
 
 ## 17. Reproducibilidad y entregables
 
@@ -478,6 +592,10 @@ Los elementos que conforman la documentación y evidencia de la práctica son:
 - Representación del modelo fisiológico en BioRender.
 - Documentación del procedimiento y resultados.
 
+[⬆️ Volver al contenido](#contenido)
+
+---
+
 ## 18. Conclusiones
 
 El desarrollo de esta práctica permitió estudiar el comportamiento del sistema musculoesquelético mediante una representación basada en analogías eléctricas.
@@ -490,6 +608,10 @@ Asimismo, la implementación de un controlador PID permitió estudiar una estrat
 
 Finalmente, el uso de MATLAB, Simulink y Python permitió complementar el análisis matemático con simulaciones computacionales y representaciones gráficas, reforzando la comprensión del modelado y control de sistemas fisiológicos.
 
+[⬆️ Volver al contenido](#contenido)
+
+---
+
 ## 19. Referencias bibliográficas
 
 [1] P. A. Valle, *Syllabus para Modelado de Sistemas Fisiológicos*, Tecnológico Nacional de México, Instituto Tecnológico de Tijuana, 2025. Disponible en: https://biomath.xyz/course/
@@ -499,6 +621,8 @@ Finalmente, el uso de MATLAB, Simulink y Python permitió complementar el análi
 [3] N. S. Nise, *Control Systems Engineering*, 8th ed. Wiley, 2020.
 
 [4] T. Kind, T. J. C. Faes, J. W. Lankhaar, A. Vonk-Noordegraaf, and M. Verhaegen, "Estimation of three- and four-element Windkessel parameters using subspace model identification," *IEEE Transactions on Biomedical Engineering*, vol. 57, no. 7, pp. 1531-1538, Jul. 2010. https://doi.org/10.1109/TBME.2010.2041351
+
+[⬆️ Volver al contenido](#contenido)
 
 ---
 
