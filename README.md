@@ -46,7 +46,7 @@ El caso de estudio representa el **sistema musculoesquelético** mediante una an
 15. [Estructura del repositorio](#estructura)
 16. [Requisitos](#requisitos)
 17. [Reproducibilidad y entregables](#reproducibilidad)
-18.  [Diagrama del sistema musculoesquelético](#diagrama-del-sistema-musculoesqueletico)
+18. [Diagrama del sistema musculoesquelético](#diagrama-del-sistema-musculoesqueletico)  
 19. [Referencias](#referencias)
 
 ---
