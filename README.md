@@ -475,13 +475,13 @@ En el desarrollo computacional se consideran las siguientes condiciones:
 
 | Variable | Descripción |
 |---|---|
-| \(F_0\) | Amplitud de la fuerza de entrada |
-| \(\alpha\) | Parámetro del modelo |
-| \(C_g\) | Capacitancia del modelo |
-| \(C_p\) | Capacitancia del modelo |
-| \(R_{\text{control}}\) | Resistencia del caso control |
-| \(R_{\text{caso}}\) | Resistencia del caso patológico |
-| \(t\) | Intervalo de simulación |
+| `F_0` | Amplitud de la fuerza de entrada |
+| `α` | Parámetro del modelo |
+| `C_g` | Capacitancia del modelo |
+| `C_p` | Capacitancia del modelo |
+| `R_control` | Resistencia del caso control |
+| `R_caso` | Resistencia del caso patológico |
+| `t` | Intervalo de simulación |
 
 La configuración temporal utilizada en el código de referencia es:
 
