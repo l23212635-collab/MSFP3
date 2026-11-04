@@ -46,7 +46,8 @@ El caso de estudio representa el **sistema musculoesquelético** mediante una an
 15. [Estructura del repositorio](#estructura)
 16. [Requisitos](#requisitos)
 17. [Reproducibilidad y entregables](#reproducibilidad)
-18. [Referencias](#referencias)
+18.  [Diagrama del sistema musculoesquelético](#diagrama-del-sistema-musculoesqueletico)
+19. [Referencias](#referencias)
 
 ---
 
@@ -1003,6 +1004,20 @@ La ejecución de los programas y la generación de figuras no sustituyen la inte
 ---
 
 <a id="referencias"></a>
+
+---
+
+<a id="diagrama-del-sistema-musculoesqueletico"></a>
+
+## Diagrama del sistema musculoesquelético
+
+La siguiente figura representa el modelo fisiológico del sistema musculoesquelético, mostrando la comparación entre el caso control y el caso patológico asociado a la atrofia muscular, así como su correspondiente modelo mecánico.
+
+![Diagrama del sistema musculoesquelético](DIagrama%20Muscoesqueletico%20P.3.png)
+
+[Volver al contenido](#contenido)
+
+---
 
 ## Referencias
 
