@@ -129,10 +129,10 @@ La resistencia representa la oposición al movimiento o a la respuesta muscular,
 
 | Símbolo | Equivalente eléctrico | Interpretación fisiológica |
 |---|---|---|
-| \(F(t)\) | Señal de entrada | Fuerza aplicada al sistema |
-| \(R\) | Resistencia | Oposición al movimiento o respuesta muscular |
-| \(C\) | Capacitancia | Almacenamiento de energía asociado al tejido muscular |
-| \(t\) | Tiempo | Evolución temporal de la respuesta |
+| `F(t)` | Señal de entrada | Fuerza aplicada al sistema |
+| `R` | Resistencia | Oposición al movimiento o respuesta muscular |
+| `C` | Capacitancia | Almacenamiento de energía asociado al tejido muscular |
+| `t` | Tiempo | Evolución temporal de la respuesta |
 | Salida | Respuesta del circuito | Comportamiento dinámico asociado a la contracción muscular |
 
 ### Parámetros para la emulación eléctrica
@@ -142,13 +142,12 @@ El modelo considera parámetros eléctricos que permiten representar las condici
 Entre los parámetros considerados en el desarrollo de la práctica se encuentran:
 
 | Parámetro | Descripción |
-|---|---|
-| \(R\) | Resistencia del modelo |
-| \(C\) | Capacitancia del modelo |
-| \(F(t)\) | Fuerza aplicada como señal de entrada |
-| \(R_{\text{control}}\) | Resistencia correspondiente al caso control |
-| \(R_{\text{caso}}\) | Resistencia correspondiente al caso patológico |
-
+|:---:|---|
+| `R` | Resistencia del modelo |
+| `C` | Capacitancia del modelo |
+| `F(t)` | Fuerza aplicada como señal de entrada |
+| `R_control` | Resistencia correspondiente al caso control |
+| `R_caso` | Resistencia correspondiente al caso patológico |
 La diferencia entre el caso control y el patológico se representa mediante modificaciones en los parámetros del modelo, principalmente en la resistencia. Estos cambios producen variaciones en la constante de tiempo y, por consiguiente, en la velocidad de respuesta.
 
 > **Alcance de la analogía:** el circuito RC es una representación simplificada del comportamiento del sistema musculoesquelético. Los componentes eléctricos permiten estudiar matemáticamente ciertas propiedades dinámicas, pero no representan de manera completa todos los procesos fisiológicos involucrados en la contracción muscular.
