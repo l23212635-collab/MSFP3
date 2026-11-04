@@ -265,36 +265,36 @@ La función de transferencia se obtiene mediante la suma de las respuestas corre
 
 A partir de:
 
-\[
+$$
 F_s(s)=F_{s1}(s)+F_{s2}(s)
-\]
+$$
 
 Se sustituyen las expresiones obtenidas:
 
-\[
+$$
 F_s(s)=
 \frac{C_sRs+1}{R(C_p+C_s)s+1}F(s)
 -
 \frac{\alpha}{R(C_p+C_s)s+1}F(s)
-\]
+$$
 
 Agrupando términos:
 
-\[
+$$
 F_s(s)=
 \frac{C_sRs+1-\alpha}{R(C_p+C_s)s+1}F(s)
-\]
+$$
 
 Por lo tanto, la función de transferencia del sistema es:
 
-\[
+$$
 \boxed{
 G(s)=\frac{F_s(s)}{F(s)}
 =
 \frac{C_sRs+1-\alpha}
 {R(C_p+C_s)s+1}
 }
-\]
+$$
 
 Donde:
 
@@ -312,30 +312,30 @@ Esta función de transferencia representa el comportamiento total del sistema co
 
 Partiendo de la función de transferencia:
 
-\[
+$$
 \frac{F_s(s)}{F(s)}
 =
 \frac{C_sRs+1-\alpha}
 {R(C_p+C_s)s+1}
-\]
+$$
 
 Se realiza el producto cruzado:
 
-\[
+$$
 [R(C_p+C_s)s+1]F_s(s)
 =
 [C_sRs+1-\alpha]F(s)
-\]
+$$
 
 Aplicando la transformada inversa de Laplace, considerando condiciones iniciales nulas, se obtiene la ecuación diferencial ordinaria:
 
-\[
+$$
 \boxed{
 R(C_p+C_s)\frac{dF_s(t)}{dt}+F_s(t)
 =
 RC_s\frac{dF(t)}{dt}+(1-\alpha)F(t)
 }
-\]
+$$
 
 Esta ecuación describe la relación dinámica entre la fuerza de entrada y la fuerza de salida del sistema musculoesquelético.
 
@@ -351,25 +351,25 @@ Esta ecuación describe la relación dinámica entre la fuerza de entrada y la f
 
 Para calcular el error en estado estacionario se considera una entrada escalón unitario:
 
-\[
+$$
 F(s)=\frac{1}{s}
-\]
+$$
 
 El error se expresa como:
 
-\[
+$$
 E(s)=F(s)-F_s(s)
-\]
+$$
 
 Aplicando el teorema del valor final:
 
-\[
+$$
 e_{ss}=\lim_{s\to0}sE(s)
-\]
+$$
 
 Sustituyendo la función de transferencia:
 
-\[
+$$
 e_{ss}
 =
 \lim_{s\to0}
@@ -379,11 +379,11 @@ s\left[
 \frac{C_sRs+1-\alpha}
 {R(C_p+C_s)s+1}\frac{1}{s}
 \right]
-\]
+$$
 
 Simplificando:
 
-\[
+$$
 e_{ss}
 =
 \lim_{s\to0}
@@ -392,13 +392,13 @@ e_{ss}
 \frac{C_sRs+1-\alpha}
 {R(C_p+C_s)s+1}
 \right]
-\]
+$$
 
 Evaluando el límite:
 
-\[
+$$
 \boxed{e_{ss}=\alpha}
-\]
+$$
 
 Por lo tanto, el error en estado estacionario depende del parámetro \(\alpha\).
 
@@ -406,31 +406,31 @@ Por lo tanto, el error en estado estacionario depende del parámetro \(\alpha\).
 
 Para determinar la estabilidad del sistema se iguala a cero el denominador de la función de transferencia:
 
-\[
+$$
 R(C_p+C_s)s+1=0
-\]
+$$
 
 Despejando el polo:
 
-\[
+$$
 \boxed{
 \lambda=-\frac{1}{R(C_p+C_s)}
 }
-\]
+$$
 
 El sistema presenta un único polo, cuya ubicación depende de la resistencia \(R\) y de las capacitancias \(C_p\) y \(C_s\).
 
 Considerando que:
 
-\[
+$$
 R>0,\qquad C_p>0,\qquad C_s>0
-\]
+$$
 
 Se cumple que:
 
-\[
+$$
 \lambda<0
-\]
+$$
 
 Por lo tanto, el polo se encuentra en el semiplano izquierdo del plano complejo y **el sistema es estable en lazo abierto**.
 
@@ -441,6 +441,8 @@ De acuerdo con la función de transferencia obtenida, se espera que el sistema p
 Asimismo, las variaciones en la resistencia y las capacitancias modifican la ubicación del polo, afectando la velocidad de respuesta del sistema.
 
 El error en estado estacionario está determinado por el parámetro \(\alpha\), de acuerdo con el análisis realizado.
+
+[Volver al contenido](#contenido)
 
 #### Ejemplo mínimo de verificación en MATLAB
 
