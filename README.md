@@ -686,19 +686,19 @@ El sistema en lazo abierto se analiza a partir de la función de transferencia o
 
 La función de transferencia del sistema es:
 
-\[
+$$
 G(s)=\frac{F_s(s)}{F(s)}=
 \frac{C_sRs+1-\alpha}
 {R(C_p+C_s)s+1}
-\]
+$$
 
 A partir de esta expresión se analiza el comportamiento dinámico del sistema, considerando su respuesta temporal, el error en estado estacionario y la ubicación de sus polos.
 
 El polo del sistema se obtiene mediante:
 
-\[
+$$
 s=-\frac{1}{R(C_p+C_s)}
-\]
+$$
 
 Para valores positivos de resistencia y capacitancias, el polo se encuentra en el semiplano izquierdo, por lo que el sistema es estable en lazo abierto.
 
@@ -710,15 +710,15 @@ Para estudiar el comportamiento del sistema en lazo cerrado se considera la inco
 
 El error se define como la diferencia entre la señal de referencia y la salida del sistema:
 
-\[
+$$
 e(t)=r(t)-F_s(t)
-\]
+$$
 
 El controlador PID utiliza tres acciones de control:
 
-\[
+$$
 C(s)=K_p+\frac{K_i}{s}+K_ds
-\]
+$$
 
 Donde:
 
@@ -728,13 +728,9 @@ Donde:
 
 La función de transferencia en lazo cerrado, considerando retroalimentación unitaria, se expresa de manera general como:
 
-\[
+$$
 T(s)=\frac{C(s)G(s)}{1+C(s)G(s)}
-\]
-
-La incorporación del controlador permite modificar la respuesta dinámica del sistema y evaluar si el comportamiento del caso patológico puede aproximarse al del caso control.
-
-La comparación entre la respuesta en lazo abierto y en lazo cerrado permite analizar el efecto del controlador sobre el comportamiento del modelo.
+$$
 
 ### 3. Comparación con la simulación
 
