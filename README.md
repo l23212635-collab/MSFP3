@@ -187,8 +187,7 @@ $$
 Considerando la relación con el capacitor \(C_p\):
 
 $$
-C_p\frac{dF_{s1}(t)}{dt}
-=
+C_p\frac{dF_{s1}(t)}{dt}=
 C_s\frac{d[F(t)-F_{s1}(t)]}{dt}
 +
 \frac{F(t)-F_{s1}(t)}{R}
@@ -197,8 +196,7 @@ $$
 Aplicando la transformada de Laplace, con condiciones iniciales nulas:
 
 $$
-C_p sF_{s1}(s)
-=
+C_p sF_{s1}(s)=
 C_s s[F(s)-F_{s1}(s)]
 +
 \frac{F(s)-F_{s1}(s)}{R}
@@ -207,8 +205,7 @@ $$
 Agrupando términos:
 
 $$
-\left(C_p s+C_s s+\frac{1}{R}\right)F_{s1}(s)
-=
+\left(C_p s+C_s s+\frac{1}{R}\right)F_{s1}(s) =
 \left(C_s s+\frac{1}{R}\right)F(s)
 $$
 
@@ -242,8 +239,7 @@ $$
 Aplicando la relación de voltajes del circuito:
 
 $$
--\alpha F(s)
-=
+-\alpha F(s)=
 RX(s)+\frac{X(s)}{(C_p+C_s)s}
 $$
 
@@ -273,8 +269,7 @@ Se sustituyen las expresiones obtenidas:
 
 $$
 F_s(s)=
-\frac{C_sRs+1}{R(C_p+C_s)s+1}F(s)
--
+\frac{C_sRs+1}{R(C_p+C_s)s+1}F(s)-
 \frac{\alpha}{R(C_p+C_s)s+1}F(s)
 $$
 
@@ -289,8 +284,7 @@ Por lo tanto, la función de transferencia del sistema es:
 
 $$
 \boxed{
-G(s)=\frac{F_s(s)}{F(s)}
-=
+G(s)=\frac{F_s(s)}{F(s)}=
 \frac{C_sRs+1-\alpha}
 {R(C_p+C_s)s+1}
 }
@@ -313,8 +307,7 @@ Esta función de transferencia representa el comportamiento total del sistema co
 Partiendo de la función de transferencia:
 
 $$
-\frac{F_s(s)}{F(s)}
-=
+\frac{F_s(s)}{F(s)}=
 \frac{C_sRs+1-\alpha}
 {R(C_p+C_s)s+1}
 $$
@@ -322,8 +315,7 @@ $$
 Se realiza el producto cruzado:
 
 $$
-[R(C_p+C_s)s+1]F_s(s)
-=
+[R(C_p+C_s)s+1]F_s(s)=
 [C_sRs+1-\alpha]F(s)
 $$
 
@@ -331,8 +323,7 @@ Aplicando la transformada inversa de Laplace, considerando condiciones iniciales
 
 $$
 \boxed{
-R(C_p+C_s)\frac{dF_s(t)}{dt}+F_s(t)
-=
+R(C_p+C_s)\frac{dF_s(t)}{dt}+F_s(t)=
 RC_s\frac{dF(t)}{dt}+(1-\alpha)F(t)
 }
 $$
@@ -370,12 +361,10 @@ $$
 Sustituyendo la función de transferencia:
 
 $$
-e_{ss}
-=
+e_{ss}=
 \lim_{s\to0}
 s\left[
-\frac{1}{s}
--
+\frac{1}{s}-
 \frac{C_sRs+1-\alpha}
 {R(C_p+C_s)s+1}\frac{1}{s}
 \right]
@@ -384,8 +373,7 @@ $$
 Simplificando:
 
 $$
-e_{ss}
-=
+e_{ss}=
 \lim_{s\to0}
 \left[
 1-
