@@ -588,25 +588,25 @@ Los componentes considerados son:
 
 Para obtener la respuesta total se aplica el principio de superposición, considerando por separado la contribución de cada fuente de voltaje y posteriormente sumando ambas respuestas:
 
-\[
+$$
 F_s(t)=F_{s1}(t)+F_{s2}(t)
-\]
+$$
 
 La relación entre las fuentes se establece mediante el parámetro \(\alpha\):
 
-\[
+$$
 F_0(t)=\alpha F(t)
-\]
+$$
 
 El comportamiento del circuito se describe mediante la función de transferencia obtenida en el análisis matemático:
 
-\[
+$$
 \boxed{
 G(s)=
 \frac{C_sRs+1-\alpha}
 {R(C_p+C_s)s+1}
 }
-\]
+$$
 
 Esta expresión permite relacionar los componentes físicos del circuito con el comportamiento dinámico del sistema musculoesquelético.
 
@@ -614,7 +614,7 @@ La implementación considera dos condiciones de funcionamiento: el caso control 
 
 La realización mediante componentes analógicos permite establecer una correspondencia entre el modelo matemático y su representación eléctrica, facilitando la comparación de los resultados teóricos y computacionales.
 
-> **Nota:** En esta sección se describe la implementación del modelo fisiológico mediante el circuito RC. No se especifica un diseño físico de controlador PID con amplificadores operacionales dentro del análisis matemático presentado..
+> **Nota:** En esta sección se describe la implementación del modelo fisiológico mediante el circuito RC. No se especifica un diseño físico de controlador PID con amplificadores operacionales dentro del análisis matemático presentado.
 
 [Volver al contenido](#contenido)
 
