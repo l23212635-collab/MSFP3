@@ -686,8 +686,7 @@ El sistema en lazo abierto se analiza a partir de la función de transferencia o
 La función de transferencia del sistema es:
 
 \[
-G(s)=\frac{F_s(s)}{F(s)}
-=
+G(s)=\frac{F_s(s)}{F(s)}=
 \frac{C_sRs+1-\alpha}
 {R(C_p+C_s)s+1}
 \]
