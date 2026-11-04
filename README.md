@@ -579,11 +579,11 @@ Los componentes considerados son:
 
 | Componente | Función dentro del circuito |
 |---|---|
-| Resistencia \(R\) | Representa la oposición al movimiento o a la respuesta muscular. |
-| Capacitor \(C_p\) | Representa el almacenamiento de energía del modelo. |
-| Capacitor \(C_s\) | Participa en la dinámica del circuito y en la respuesta del sistema. |
-| Fuente \(F(t)\) | Representa la señal de entrada aplicada al sistema. |
-| Fuente \(F_0(t)\) | Representa la segunda fuente de voltaje considerada en el análisis. |
+| Resistencia `R` | Representa la oposición al movimiento o a la respuesta muscular. |
+| Capacitor `C_p` | Representa el almacenamiento de energía del modelo. |
+| Capacitor `C_s` | Participa en la dinámica del circuito y en la respuesta del sistema. |
+| Fuente `F(t)` | Representa la señal de entrada aplicada al sistema. |
+| Fuente `F_0(t)` | Representa la segunda fuente de voltaje considerada en el análisis. |
 
 Para obtener la respuesta total se aplica el principio de superposición, considerando por separado la contribución de cada fuente de voltaje y posteriormente sumando ambas respuestas:
 
