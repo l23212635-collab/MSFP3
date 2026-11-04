@@ -63,7 +63,7 @@ Se estudia la respuesta temporal de ambos escenarios mediante simulaciones compu
 
 Esta práctica integra el modelado matemático, el análisis de sistemas dinámicos y la aplicación de conceptos de control clásico a un sistema fisiológico.
 
-**Palabras clave:** sistema musculoesquelético; contracción muscular; fuerza \(F(t)\); analogía eléctrica RC; controlador PID; modelado de sistemas fisiológicos; MATLAB; Simulink; Python; simulación *in silico*.
+**Palabras clave:** sistema musculoesquelético; contracción muscular; fuerza \(F(t)\);Control neuromuscular; Respuesta dinámica; 
 
 [Volver al contenido](#contenido)
 
