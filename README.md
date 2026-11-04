@@ -170,98 +170,95 @@ Debido a que el sistema contiene dos fuentes de voltaje, se aplica el principio 
 
 Aplicando las relaciones del circuito se obtiene:
 
-\[
+$$
 X(t)=X_1(t)+X_2(t)
-\]
+$$
 
 Las ecuaciones correspondientes son:
 
-\[
+$$
 X_1(t)=C_s\frac{d[F(t)-F_{s1}(t)]}{dt}
-\]
+$$
 
-\[
+$$
 X_2(t)=\frac{F(t)-F_{s1}(t)}{R}
-\]
+$$
 
 Considerando la relación con el capacitor \(C_p\):
 
-\[
+$$
 C_p\frac{dF_{s1}(t)}{dt}
 =
 C_s\frac{d[F(t)-F_{s1}(t)]}{dt}
 +
 \frac{F(t)-F_{s1}(t)}{R}
-\]
+$$
 
 Aplicando la transformada de Laplace, con condiciones iniciales nulas:
 
-\[
+$$
 C_p sF_{s1}(s)
 =
 C_s s[F(s)-F_{s1}(s)]
 +
 \frac{F(s)-F_{s1}(s)}{R}
-\]
+$$
 
 Agrupando términos:
 
-\[
+$$
 \left(C_p s+C_s s+\frac{1}{R}\right)F_{s1}(s)
 =
 \left(C_s s+\frac{1}{R}\right)F(s)
-\]
+$$
 
 Por lo tanto:
 
-\[
+$$
 F_{s1}(s)=
 \frac{C_sRs+1}{R(C_p+C_s)s+1}F(s)
-\]
+$$
 
 **Circuito 2: Fuente \(F(t)\) activa**
 
 Para el segundo circuito se considera la relación:
 
-\[
+$$
 F_0(t)=\alpha F(t)
-\]
+$$
 
 A partir de las ecuaciones del circuito:
 
-\[
+$$
 F_{s2}(t)=\frac{1}{C_p+C_s}\int x(t)\,dt
-\]
+$$
 
 La relación en el dominio de Laplace es:
 
-\[
+$$
 F_{s2}(s)=\frac{X(s)}{(C_p+C_s)s}
-\]
+$$
 
 Aplicando la relación de voltajes del circuito:
 
-\[
+$$
 -\alpha F(s)
 =
 RX(s)+\frac{X(s)}{(C_p+C_s)s}
-\]
+$$
 
 Despejando y sustituyendo:
 
-\[
+$$
 F_{s2}(s)=
 -\frac{\alpha}{R(C_p+C_s)s+1}F(s)
-\]
+$$
 
-Finalmente, mediante el principio de superposición, la respuesta total se obtiene sumando ambas contribuciones:
+Finalmente, mediante el principio de superposición:
 
-\[
+$$
 F_s(s)=F_{s1}(s)+F_{s2}(s)
-\]
-
-[Volver al contenido](#contenido)
-
+$$
 ### 2. Función de transferencia
 
 La función de transferencia se obtiene mediante la suma de las respuestas correspondientes a los dos circuitos analizados.
