@@ -760,16 +760,27 @@ Las respuestas permiten contrastar el comportamiento del sistema musculoesquelé
 
 El análisis gráfico permite identificar las diferencias en la respuesta dinámica y estudiar los efectos de los cambios en los parámetros del modelo.
 
-### Archivos de resultados identificados en la práctica
+### Archivos de resultados identificados en el repositorio
 
-| Archivo o evidencia | Descripción |
-|---|---|
-| MATLAB `.mlx` | Desarrollo matemático y simulaciones |
-| Simulink `.slx` | Modelo del sistema musculoesquelético |
-| Python `.py` | Implementación computacional del modelo |
-| PDF de gráficas | Comparación entre control y caso patológico |
-| Evidencia matemática | Desarrollo y análisis del modelo |
-| BioRender | Representación del modelo fisiológico |
+| Tipo de evidencia | Archivo | Descripción |
+|---|---|---|
+| Análisis matemático | [Análisis Matemático_3.pdf](Análisis%20Matemático_3.pdf) | Desarrollo de las ecuaciones integro-diferenciales, función de transferencia, EDO, error en estado estacionario, polos y estabilidad. |
+| Resultados de MATLAB | [Control y Caso_matlab3.pdf](Control%20y%20Caso_matlab3.pdf) | Gráficas comparativas de la respuesta del caso control y el caso patológico. |
+| Controlador PID | [Controlador PID.jpeg](Controlador%20PID.jpeg) | Evidencia gráfica del controlador PID. |
+| Modelo fisiológico | [Sistema_Musculoesqueletico.pdf](Sistema_Musculoesqueletico.pdf) | Representación del sistema musculoesquelético. |
+| Cuaderno MATLAB | [Perez23212635_3.mlx.m](Perez23212635_3.mlx.m) | Archivo correspondiente al desarrollo computacional en MATLAB. |
+| Modelo Simulink | [Sistema3 (1).slx](Sistema3%20(1).slx) | Modelo del sistema implementado mediante diagramas de bloques en Simulink. |
+| Simulación en Python | [perez23212635.py.py](perez23212635.py.py) | Código utilizado para reproducir el modelo y generar simulaciones. |
+
+**Archivos complementarios del repositorio:**
+
+- `CITATION.cff`: información para citar el repositorio.
+- `LICENSE`: archivo con la licencia del proyecto.
+- `README.md`: documentación general de la práctica.
+
+Los archivos anteriores corresponden a las evidencias y herramientas utilizadas durante el desarrollo de la práctica. Los documentos PDF se enlazan para su consulta, mientras que los archivos de MATLAB, Simulink y Python permiten revisar las implementaciones computacionales.
+
+[Volver al contenido](#contenido)
 
 ### Aspectos para discutir
 
