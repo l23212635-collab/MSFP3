@@ -767,10 +767,12 @@ El análisis gráfico permite identificar las diferencias en la respuesta dinám
 | Análisis matemático | [Análisis Matemático_3.pdf](Análisis%20Matemático_3.pdf) | Desarrollo de las ecuaciones integro-diferenciales, función de transferencia, EDO, error en estado estacionario, polos y estabilidad. |
 | Resultados de MATLAB | [Control y Caso_matlab3.pdf](Control%20y%20Caso_matlab3.pdf) | Gráficas comparativas de la respuesta del caso control y el caso patológico. |
 | Controlador PID | [Controlador PID.jpeg](Controlador%20PID.jpeg) | Evidencia gráfica del controlador PID. |
-| Modelo fisiológico | [Sistema_Musculoesqueletico.pdf](Sistema_Musculoesqueletico.pdf) | Representación del sistema musculoesquelético. |
+| Diagrama musculoesquelético | [Diagrama Muscoesqueletico P.3.png](Diagrama%20Muscoesqueletico%20P.3.png) | Representación gráfica del sistema musculoesquelético. |
+| Modelo fisiológico | [Sistema_Musculoesqueletico.pdf](Sistema_Musculoesqueletico.pdf) | Documento con la representación del sistema musculoesquelético. |
 | Cuaderno MATLAB | [Perez23212635_3.mlx.m](Perez23212635_3.mlx.m) | Archivo correspondiente al desarrollo computacional en MATLAB. |
 | Modelo Simulink | [Sistema3 (1).slx](Sistema3%20(1).slx) | Modelo del sistema implementado mediante diagramas de bloques en Simulink. |
 | Simulación en Python | [perez23212635.py.py](perez23212635.py.py) | Código utilizado para reproducir el modelo y generar simulaciones. |
+| Cuadernillo de la práctica | [Perez23212635_3_Cuadernillo.pdf](Perez23212635_3_Cuadernillo.pdf) | Documento complementario con el desarrollo y las evidencias de la práctica. |
 
 **Archivos complementarios del repositorio:**
 
